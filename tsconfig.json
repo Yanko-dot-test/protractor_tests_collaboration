@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "lib": ["es6"],
+      "strict": true,
+      "baseUrl": "./node_modules",
+      "module": "commonjs",
+      "target": "es6",
+      "outDir" : "ConvertedJSFiles",
+      "types" : ["jasmine", "node"]
+    },
+    "exclude": [
+      "node_modules/*"
+    ]
+}

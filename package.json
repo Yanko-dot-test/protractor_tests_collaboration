@@ -1,0 +1,21 @@
+{
+  "name": "protractor_tests",
+  "version": "1.0.0",
+  "description": "Asdasd",
+  "main": "conf.js",
+  "dependencies": {
+    "@types/jasmine": "^3.5.0",
+    "@types/node": "^13.1.1",
+    "jasminewd2": "^2.2.0",
+    "protractor": "^5.4.2",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "pretest": "npm run tsc",
+    "test": "protractor ConvertedJSFiles/config.js",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}
